@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harshada Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo"></div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Skill's</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Harshada Mandlik</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span><span></span><span></span>
+        </div>
+        <div class="menu-links">
+          <ul>
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Skill's</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img
+          src="C:\Users\harsh\Pictures\Camera Roll\Photo.JPG"
+          alt="Harshada Mandlik profile picture"
+        />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello I'm</p>
+        <h1 class="title">Harshada Mandlik</h1>
+        <p class="section__text__p2">Data Analyst</p>
+        <p class="section__text__p1"><span></span></p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('https://drive.google.com/file/d/15CZyumxrRJquAv6jHMPKAUZ5hgnJxjbq/view?usp=sharing')"
+          >
+            Download CV
+          </button>
+          <button
+            class="btn btn-color-1"
+            onclick="location.href= './#contact'""
+          >
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
+          onclick="location.href='https:linkedin.com/in/harshada-mandlik-17176724b'"/>
+          <img src="./assets/github.png" alt="My GitHub profile" class="icon"
+          onclick="location.href='https:github.com/harshada-mandlik'"/>
+        </div>
+      </div>      
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get to Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img src="./assets/experience.png" alt="Experience icon" class="icon"/>
+              <h3>Personal Project</h3>
+              <p>Frontend Development<br/>Backend Development<br/>Dashboards<br/>Python</p>
+            </div>
+            <div class="details-container">
+              <img src="./assets/education.png" alt="Education icon" class="icon"/>
+              <h3>Education</h3>
+              <p>Bachelor of Computer Application <br/>(Data Analyst)</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Objective: To leverage my academic knowledge and analytical skills in data collection, cleaning, and visualization to deliver actionable insights and drive business decisions. Seeking a challenging entry-level role in Data Analytics to contribute to the organization's growth while developing my technical expertise in tools like Python, SQL, and Tableau.
+
+              This objective can be tailored further based on the specific role or skills you want to highlight. Let me know if you’d like help with that!
+            </p>
+            <p>
+              Beyond the screen, I'm a curious problem-solver and a perpetual learner. Ready for new challenges, I bring a friendly approach to tech and a commitment to creating solutions that just make sense.              
+            </p>
+            <p>
+              Let's not just code; let's create!
+            </p>
+          </div>
+        </div>
+      </div>
+      <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skill's</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend/Backend Development</h2>
+            <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+              <div>
+                <h3>HTML</h3>
+                <p>Beginner</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+              <div>
+                <h3>CSS</h3>
+                <p>Beginner</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+              <div>
+                <h3>JavaScript</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+              <div>
+                <h3>SQL</h3>
+                <p>Beginner</p>
+              </div>
+            </article>
+          </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Visulization Tool's</h2>
+            <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+              <div>
+                <h3>Excel</h3>
+                <p>Fresher</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+              <div>
+                <h3>Advance Excel</h3>
+                <p>Fresher</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+              <div>
+                <h3>R programming</h3>
+                <p>Fresher</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+              <div>
+                <h3>Power BI</h3>
+                <p>Fresher</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+              <div>
+                <h3>Tableau</h3>
+                <p>Fresher</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+              <div>
+                <h3>SQL</h3>
+                <p>Fresher</p>
+              </div>
+            </article>
+          </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">DevOps</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                  <h3>Git/GitHub</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                  <h3>LinkedIn</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+          </div>
+          </div>
+        </div>
+      </div>
+      <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="project-containers">
+        <div class="details-container color-container">
+          <div class="img-container">
+            <img src="https://www.xyzmo.com/Images/Products/biometric_realtime_signature_verification.png" alt="Project 1" class="project-img">
+          </div>
+          <h2 class="experience-sub-title project-title">Signature Verification System</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/MandlikHarshada/Signature-Verfication.git'">GitHub</button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://drive.google.com/file/d/1k3Yi5MAGj9f14rL1xkiCAqNq-tFtvVLe/view?usp=sharing'">Live Demo</button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="img-container">
+            <img src="https://indzara.com/wp-content/uploads/2015/04/Worldcup-Cricket-Dashboard.png" alt="Project 2" class="project-img">
+          </div>
+          <h2 class="experience-sub-title project-title">T20 Worldcup Dashboard</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/MandlikHarshada/Worldcup-Dashboard.git'">GitHub</button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://drive.google.com/file/d/19RW4taUpD0hQzeG8NfldU3KZooyF5kN7/view?usp=drive_link'">Live Demo</button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="img-container">
+            <img src="https://i.pinimg.com/originals/90/5a/14/905a1486840efee12332e6b5270de49d.jpg" alt="Project 3" class="project-img">
+          </div>
+          <h2 class="experience-sub-title project-title">Coffee shop <br/>Website</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/MandlikHarshada/Coffee-shop-website.git'">GitHub</button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://mandlikharshada.github.io/Coffee-shop-website/'">Live Demo</button>
+          </div>
+        </div>
+        </div>
+      </div>
+      <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon"/>
+          <p><a href="harshadavmandlik2003@gmail.com">harshadavmandlik2003@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon"/>
+          <p><a href="https:linkedin.com/in/harshada-mandlik-17176724b" target="_blank">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skill's">Skill's</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
